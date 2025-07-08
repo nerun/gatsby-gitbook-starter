@@ -78,6 +78,7 @@ if (config.pwa && config.pwa.enabled && config.pwa.manifest) {
 }
 
 module.exports = {
+  trailingSlash: 'never',
   pathPrefix: config.gatsby.pathPrefix,
   siteMetadata: {
     title: config.siteMetadata.title,
